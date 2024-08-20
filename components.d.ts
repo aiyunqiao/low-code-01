@@ -5,7 +5,7 @@ import '@vue/runtime-core';
 
 export {};
 
-declare module '@vue/runtime-core' {
+declare module 'vue' {
   export interface GlobalComponents {
     ElAside: typeof import('element-plus/es')['ElAside'];
     ElButton: typeof import('element-plus/es')['ElButton'];
